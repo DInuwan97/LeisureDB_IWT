@@ -1,0 +1,263 @@
+.clearfix{overflow : auto}
+body {margin:0;font-family:Arial}
+
+.wrapper{
+  margin:0;
+}
+
+
+.description{
+  /* display: inline-block;*/ 
+  width: 100%;
+  height: 460px;
+  /* background:#0F90A5; */
+  background: #0F90A5;
+ /* background: linear-gradient(#ffffff,#f5f5f0,#ebebe0);*/
+ 
+  /* background-image:url(../img/muniya.jpeg); */
+    /* background-size:100%;
+    background-repeat;  
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative; */
+
+    
+}
+
+.des-image{
+  margin-top: 25px;
+  width: 49%;
+  height: 600px;
+  background: #0F90A5;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.des-txt{
+  margin-top: 10px;
+  width:90%;
+  height: 30px;
+  /*background:#0F90A5;*/
+  margin-left: 30px;
+  background: black;
+  
+  
+  
+  
+ 
+}
+
+
+.des-txt h3{
+  font-size: 40px;
+  font-weight:bold;
+  transition: 0.5s;
+  color: #ebfa1b;
+}
+
+
+.des-txt h3:hover{
+  color: #faac1b;
+  transition: 0.5s;
+  font-size: 45px;
+}
+
+
+
+
+.des-txt h1{
+  font-weight:bold;
+  font-size:40px;
+  margin-left: 20px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.des-txt h2{
+  font-weight:bold;
+  font-size:50px;
+  color: #364049;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
+.what-is-LeisureDB{
+  border-radius: 10px;
+  width:70%;
+  height: 210px;
+  /* border:solid; */
+  margin-left: 15%;
+}
+
+.what-is-LeisureDB p{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction{
+  margin-left: 100px;
+  margin-right: 80px;
+  margin-top: 85px;
+  display: inline-block;
+  width: 450px;
+  height: 220px;
+  background: black;
+  /* background:#0F90A5; */
+  float: right;
+
+
+}
+
+.description-txt{
+  display: inline-block;
+  float: right;
+  margin-top: none;
+  
+  width: 20%;
+  height: 400px;
+  background: #0F90A5;
+}
+
+
+/*.activity_category{
+  margin-left: 590px;
+  display: inline-block;
+  width: 300px;
+  background: maroon;
+
+}*/
+
+
+.product-content{
+/*  background: linear-gradient(#6b6b47,#5c5c3d, #4d4d33,#1f1f14,#0f0f0a);*/
+    /*background: linear-gradient(#0f0f0a,#1f1f14,#4d4d33,#5c5c3d,#6b6b47);*/
+
+/*  background-image:url(../img/muniya.jpeg);*/
+/*background: linear-gradient(to right,#1f1f14,#1a0000,#330000,#4d0000,#660000,#800000);*/
+background: #0F90A5;
+  width: 100%px;
+  height: 440px;
+
+
+
+
+
+}
+
+.store-content{
+
+ 
+ margin-top:none;
+ margin-left: none;
+ /* background: linear-gradient(#6b6b47,#5c5c3d, #4d4d33,#1f1f14); */
+ background: #0F90A5;
+ width: 40%;
+ height: 430px;
+ margin-left: none;
+ margin-top: none;
+ /*border-radius: 8px;*/
+ display: inline-block;
+}
+
+
+.activity-content{
+  width: 57%;
+  height: 430px;
+  background: #0F90A5;
+  display: inline-block;
+  margin-top: none;
+ margin-left: none;
+}
+
+
+.quick-activity-col{
+  width:30%;
+  height: 385px;
+  /* border: solid; */
+  margin-left: 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.single-content-activity{
+   width: 90%;
+  height: 175px;
+  /* border: solid; */
+  margin-top: 10px;
+  transition: 0.4s; 
+
+
+
+
+}
+
+
+.single-content-activity:hover.single-content-activity{
+  width: 80%;
+  height:80%;
+  transition: 0.4s;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+
+}
+
+
+
+
+.centered{
+  
+   
+
+}
+
+.centered h1 a:hover{
+  
+}
+
+
+
+
+
+
+
+
+
+.store-content .apple{
+  color: #0F90A5;
+}
+
+
+.store-content h1{
+  /*font-family:Comic Sans MS;*/
+  font-weight: bold;
+  color:white;
+  font-size: 35px;
+  font-family: arial;
+
+
+}
+
+.store-content table{
+  margin-left: 50px;
+}
+
+.store-content img {
+  width:250px;
+  height: 80px;
+}

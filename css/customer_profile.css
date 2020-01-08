@@ -1,0 +1,384 @@
+.clearfix{overflow : auto}
+body {margin:0;font-family:Arial}
+
+
+
+
+.page-title h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 50px;
+	color: rgb(49, 46, 46);
+	margin-top: none;
+}
+
+.page-title h1 i{
+	color:black
+}
+
+.body-page-admin{
+	background: #0F90A5;
+	height: 100%;
+} 
+
+
+
+
+.customer-profile{
+	width:1400px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 0;
+	background: black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+div.customer-profile div.user-dashboard{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:430px;
+	height: 480px;
+	background: #0F90A5;
+	color:white;
+
+}
+/* Klabowila D.C */
+
+
+div.customer-profile div.user-settings{
+	float: right;
+	width:940px;
+	height: 480px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin-right:10px;	
+	background:#0F90A5;
+
+
+}
+
+.user-dashboard h1{
+	margin-top: 5px;
+	color: black;
+	text-align:center;
+	font-family: arial;
+}
+
+.sub-dashboard{
+	border-style: solid;
+	width:415px;
+	height:405px;
+	margin-top:none;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: black;
+	border-radius: 3px;
+	overflow: auto;
+
+
+}
+
+div.sub-dashboard div.dashboard-message{
+	border-style:solid;
+	color:black;
+	width:382px;
+	height:160px;
+	margin-right:2.5px;
+	margin-left:2.5px;
+	margin-top: 2.5px;
+	border-radius: 5px;
+
+}
+
+
+
+
+div.sub-dashboard div.dashboard-message i{
+	float: left;
+	margin-left: 2.5px;
+	margin-top:none;
+	padding-top: none;
+}
+
+div.sub-dashboard div.dashboard-message label{
+		margin-top:7px;
+		margin-left: 5px;
+		color: black;
+		font-weight: bold;
+}
+
+div.sub-dashboard div.dashboard-message p{
+	margin-top:0;
+	font-family: arial;
+	font-size:10px;
+	margin-left: 5px;
+	font-weight: bold;
+	color: black;
+
+}
+
+div.sub-dashboard div.dashboard-message p.notification{
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div.sub-dashboard div.dashboard-message button.admin-accept{
+
+	background: linear-gradient(to right,#ebfc05,#e9f810,#ebfa1b);
+	border:none;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #2f2f1e;
+	height: 20px;
+	width: 75px;
+	margin-bottom: 10px;
+	margin-left: 220px;
+	display: inline;
+
+}
+
+div.sub-dashboard div.dashboard-message button.admin-accept:hover{
+	background: orange;
+}
+
+div.sub-dashboard div.dashboard-message button.admin-accept i{
+	margin-top: 1px;
+}
+
+
+div.sub-dashboard div.dashboard-message button.admin-reject{
+
+	background:maroon;
+	border:none;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	height: 20px;
+	width: 80px;
+	margin-bottom: 10px;
+	display: inline;
+}
+
+div.sub-dashboard div.dashboard-message button.admin-reject:hover{
+	background: rgb(255, 0, 34);
+}
+
+div.sub-dashboard div.dashboard-message button.admin-reject i{
+	margin-top: 1.5px;
+}
+
+.user-settings h1{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.user-settings table{
+	width: 250px;
+	margin-left: 15px;
+	float: left;
+	font-size: 14px;
+	margin-top: 0;
+	font-weight: bold;
+
+}
+
+
+.user-settings table a{
+
+	
+}
+
+.user-settings h3{
+	float: right;
+	font-weight: bold;
+	margin-top:0;
+	font-size: 14px;
+	margin-right: 15px;
+}
+
+.user-settings table a:hover{
+	color: black;
+
+}
+
+.user-settings h3 a:hover{
+	color:black;
+}
+/*
+------------------------------------------------------------------------*/
+
+div.user-settings div.nav-title{
+	width: 900px;
+	margin-left:20px;
+	margin-right: 20px;
+}
+
+div.user-settings div.navigation-bar{
+	width: 900px;
+	height: 300px;
+	background:rgb(146, 134, 134);
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top: none;
+	border-radius: 8px;
+}
+
+
+div.user-settings div.nav-title div.nav-links ul li{
+	display: inline-block;
+	list-style: none;
+	margin-top: 10px;
+	margin-right: 45px;
+	margin-left: 10px;
+}
+
+div.user-settings div.nav-title div.nav-links ul li a{
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+}
+
+div.user-settings div.nav-title div.nav-links ul li  .active{
+	background: orange;
+	border:none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:  15px;
+	padding-right:  15px;
+	border-radius: 3px;
+	color: black;
+}
+
+
+
+
+
+div.user-settings div.nav-title nav{
+	background: black;
+	height: 35px;
+	border-radius: 5px;
+}
+
+
+div.user-settings div.nav-title div.nav-links ul li a:hover{
+	background: orange;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:  15px;
+	padding-right:  15px;
+	border-radius: 3px;
+	color: black;
+}
+
+
+
+
+.navigation-name h1{
+	float:left;
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+
+.navigation-bar table{
+	width: 850px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top:0;
+
+}
+
+.navigation-content{
+     width: 900px;
+    /* margin-left: 15px;
+     margin-right: 15px;*/
+     height: 200px;
+     background: rgb(146, 134, 134);
+    /*background: gray;*/
+     margin-top: 48px;
+     overflow: auto;
+}
+
+.navigation-content table{
+	width: 850px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 14px;
+	font-weight: normal;
+
+}
+
+
+.navigation-bar table a{
+	text-decoration: none;
+	color: maroon;
+}
+
+
+
+
+
+#published{
+	color:rgb(18, 95, 25);
+}
+
+#not-published{
+	color: rgb(187, 53, 53);
+}
+
+.navigation-content table button.btn-delete{
+	border: none;
+	border-radius: 5px;
+	background: rgb(197, 86, 86);
+	margin-top: 2px;
+}
+
+
+.navigation-content table button.btn-view{
+	border: none;
+	border-radius: 5px;
+	background: rgba(20, 112, 148, 0.719);
+	margin-top: 2px;
+}
+
+#manage-adds:hover{
+  transition: 1s;
+
+}
+
+#manage-providers:hover{
+	transition: 1s;
+}
+
+#manage-customers:hover{
+	transition: 1s;
+}
+
+#owner-messages:hover{
+	transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

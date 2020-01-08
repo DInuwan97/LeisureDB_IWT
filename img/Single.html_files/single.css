@@ -1,0 +1,39 @@
+.clearfix{overflow : auto}
+body {margin:0;font-family:Arial}
+
+
+.single-sctivity-main{
+    width:100%;
+    height: 800px;
+    background: #0F90A5;
+}
+
+.main-single{
+    margin-top:95px;
+    margin-left: 5%;
+    width: 90%;
+    height: 570px;
+    border:solid;
+}
+
+
+
+.single-activity-left{
+    margin-top:15px;
+    margin-left: 4%;
+    display: inline-block;
+    border: solid;
+    width: 44%;
+    height: 520px;
+}
+
+
+.single-activity-right{
+    margin-top:15px;
+    margin-left: 4%;
+    display: inline-block;
+    border: solid;
+    width: 44%;
+    height: 520px;
+}
+      

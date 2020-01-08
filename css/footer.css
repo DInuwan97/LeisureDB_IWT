@@ -1,0 +1,219 @@
+.clearfix{overflow : auto}
+body {margin:0;font-family:Arial}
+
+.wrapper{
+  margin:0;
+}
+
+div.footer div.news-letter{
+	width:100%px;
+	
+	/*background:linear-gradient(#6b6b47,#5c5c3d,#4d4d33);*/
+	background: #364049;
+
+}
+
+div.footer div.news-letter input{
+	width: 550px;
+	height: 40px;
+	
+	margin-top: 25px;
+	border: none;
+	border-radius: 5px;
+	font-family: arial;
+		margin-bottom: 20px;
+	font-size: 20px;
+}
+div.footer div.news-letter input:hover{
+	width:750px;
+	/* transition: 1s; */
+	transition-duration: 1.5s;
+}
+
+div.footer div.news-letter button{
+	height: 40px;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	background: linear-gradient(to left,#ebfc05,#e9f810,#ebfa1b);
+	border:none;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+
+div.footer div.news-letter button:hover{
+	color:#ebfa1b;
+	background: black;
+
+	transition:0.7s;
+}
+
+.down-footer{
+	height: 350px;
+	margin-bottom: 20px;
+	background: linear-gradient(to left,#ebfc05,#e9f810,#ebfa1b);
+}
+
+.col{
+	width:1300px;
+	margin: 0 auto;
+	padding : 0;
+	background: none;
+}
+
+
+.down-footer-col{
+
+	margin-top: 15px;
+	height: 310px;
+	width: 25%;
+	/* background: linear-gradient(to left,#ebfc05,#e9f810,#ebfa1b,#e5f328,#dde930);; */
+	background: none;
+	margin-left: 15px;
+	display: inline-block;
+	border: solid;
+	
+}
+
+	
+
+.down-footer-col-last{
+	margin-top: 15px;
+	height: 310px;
+	width: 40%;
+	/* background :linear-gradient(to left,#ebfc05,#e9f810,#ebfa1b,#e5f328,#dde930); */
+	background: none;
+	margin-left: 15px;
+	display: inline-block;
+	border: solid;
+
+
+}
+
+.down-footer-col h4{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0;
+	margin-left: 10px;
+
+}
+
+
+.down-footer-col table{
+	margin-top: 0;
+	margin-left:10px;
+	font-weight: bold;
+}
+
+
+.down-footer-col p{
+	margin-left: 35px;
+	margin-right: 35px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #364049;
+}
+
+
+
+.job a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.job a:hover{
+	color: rgb(8, 146, 226);
+	transition:0.5s;
+}
+
+
+.down-footer-col-last h4{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0;
+	margin-left: 10px;
+}
+
+
+.down-footer-col-last table a{
+	font-weight: normal;
+	font-style: 13px;
+	margin-left: 25px;
+	border-collapse:40px; 
+	font-weight:bold;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;	
+}
+
+.down-footer-col-last a:hover{
+	color: rgb(8, 146, 226);
+	transition:0.5s;
+}
+
+div.down-footer-col-last div.social-meadia{
+	float: right;
+	background: linear-gradient(to right,#ebfc05,#e9f810,#ebfa1b);
+	margin-left: 200px;
+	width:270px;
+	height:40px;
+	display: inline;
+
+}
+
+
+.down-footer-col table a{
+	text-decoration: none;
+	color: black;
+}
+
+.down-footer-col table a:hover{
+	color: rgb(8, 146, 226);
+	transition:0.5s;
+}
+
+
+
+div.down-footer-col-last div.social-meadia a{
+	color:black;
+}
+
+  div.down-footer-col-last div.social-meadia a:hover{
+	color: rgb(8, 146, 226);
+	transition:1s;
+}  
+
+
+
+
+
+.down-footer h5{
+	float:right;
+}
+
+.down-footer-col-last td a:hover{
+	font-size: 15px;	
+}
+
+
+.down-footer-col td a:hover{
+	font-size: 15px;
+}
+
+
+.down-footer-col p:hover{
+	color: black;
+	transition: 1s;
+}
+
+
+div.down-footer-col div.contact:hover{
+	border-bottom: solid;
+}
+
+

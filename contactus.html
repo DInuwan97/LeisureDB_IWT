@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/customer_profile.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+ <script src="js/contentscript.js"></script> 
+
+
+<style>
+
+
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+  
+
+
+
+
+
+<div class="topnav" id="myTopnav">
+
+   <a href="#home" class="active">Welcome</a>
+
+
+   <a href="login.html" class="sign-in"><i class="fas fa-sign-in-alt"></i> Sign In  </a>
+
+   <a href="register.html" class="sign-up"><i class="fas fa-edit"></i> Create an Account</a>
+
+     
+            <div class="dropdown">
+
+              <button class="dropbtn"><i class="fas fa-user"></i> Hello Guest <i class="fa fa-caret-down"></i></button>
+               
+              <div class="dropdown-content">
+                <a href="profile.html">My Profile</a>
+                <a href="#2">Account Settings</a>
+                <a href="#3">Log out</a>
+              </div>
+            </div><!-- dropdown -->
+           
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction1()">&#9776;</a>
+</div><!-- topnav -->
+
+
+     
+
+            
+            <div class="header"> 
+
+
+              <div class="head-name">
+                            
+                    <div class="logo-name">
+                      
+             <!--              <a href="#wear"> LEISURE </a> -->
+              <img src="img/logo.png" style="width:340px; height: 150px; float: left; margin-left: none;">
+              <hr>
+
+                                            
+                    </div><!-- logo-name -->
+
+
+
+                    <div class="logo-sub-name">
+                      <ul>
+                        <li>
+                   <!--        <a href="#wear"><h2>STORES</h2></a> -->
+                        </li>
+                      </ul>
+                    </div>
+
+
+              <div class="cart">
+                <p>My Cart</p>
+            <br><a href="#"><i class="fab fa-opencart fa-3x"></i></i></a>   
+            </div><!-- cart -->
+
+              </div><!-- head-name -->
+
+
+<!-- ..................................................................... -->
+
+            </div><!-- header -->
+
+
+              <div class="main-navbar" id="main-navbar">
+                
+
+                  <a href="index.html" class="active"><i class="fas fa-home fa-2x"></i> </a>
+
+     
+
+
+                  <div class="main-navbar-dropdown">
+
+                  <button class="main-navbar-dropbtn">ACTIVITIES<i class="fa fa-caret-down"></i></button>
+               
+                          <div class="main-navbar-dropdown-content">
+                              <a href="leisure_Activities.html">Hiking</a>
+                              <a href="leisure_Activities.html">Tourism</a>
+                              <a href="leisure_Activities.html">Camping</a>
+                              <a href="leisure_Activities.html">Swimming</a>
+                              <a href="leisure_Activities.html">Sports</a>
+                          </div>
+                  </div>
+
+
+
+
+             
+                  <div class="main-navbar-dropdown">
+
+                  <button class="main-navbar-dropbtn">OPPORTUNITIES<i class="fa fa-caret-down"></i></button>
+               
+                          <div class="main-navbar-dropdown-content" id="opportunities">
+                              <a href="job_opportunities.html">Web Administrator</a>
+                              <a href="job_opportunities.html">Online Finance Controller</a>
+                              <a href="job_opportunities.html">System Designer</a>
+                          </div>
+                  </div>    
+
+                  <a href="#foot-wear" class="foot-wear">FAQ'S</a>
+                  <a href="aboutus.html" class="wedding">ABOUT US</a>
+                  <a href="contactus.html" class="wedding">CONTACT US</a>
+
+
+                   <div class="search-icon">
+                    <i class="fas fa-search fa-2x"></i> 
+                </div><!-- search-icon-->
+                 
+
+
+                <div class="top-bar-search">
+                  <form method="POST" action="index1.html">
+                    <input type="text" name="search_box" placeholder=" Search...">         
+                  </form>
+                </div><!-- top-bar-search -->
+
+               
+
+                  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction2()">&#9776;</a>
+
+
+
+    </div> <!-- main-navbar -->
+
+
+
+
+
+
+<script>
+function myFunction1() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+<script>
+function myFunction2() {
+    var y = document.getElementById("main-navbar");
+    if (y.className === "main-navbar") {
+        y.className += " responsive";
+    } else {
+        y.className = "main-navbar";
+    }
+}
+</script>
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("myTopnav").style.top = "0";
+  } else {
+    document.getElementById("myTopnav").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+
+
+<!-- ---------------------header------------------header--------------------header--------------------header---------------------header--------- -->
+
+
+					<div class="content-main clearfix">
+
+<center>
+    <h1>CONTACT US</h1></center>
+
+    <div class="content-left clearfix">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.403636707571!2d80.75784231538883!3d7.957172494268695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afca1239433dcb5%3A0x762e72bb619aef0c!2sSigiriya+Lion+Rock!5e0!3m2!1sen!2slk!4v1533052641591" width="630" height="70%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <center>
+            <tr>
+                <td><i class="fa fa-phone-square" style="font-size:30px;color:black"></i></td>
+				<td></td>
+                <td><a href="skype:0712184518?call">(+94) 71 2184 518</a></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa fa-envelope-square" style="font-size:30px;color:black"></i></td>
+                <td></td>
+                <td><a href="mailto:info@thirtyfirstsoftwares.com">info@thirtyfirstsoftwares.com</a></td>
+            </tr>
+        </center>
+
+        <center> <font color="blue">Sign up below news letter for our new updates</font>
+            <a href="#">
+
+               <i class="fab fa-facebook-square fa-2x" id="fb"></i></a>
+
+            <a href="#"><i class="fab fa-twitter-square fa-2x" style="color:DeepSkyBlue"></i></a>
+
+            <a href="#"><i class="fas fa-rss-square fa-2x" style="color:OrangeRed"></i></a>
+        </center>
+
+    </div>
+
+    <div class="content-right clearfix">
+	 <div class="progress-container">
+			<div class="progress-bar" id="myBar"></div>
+			</div> 		
+        <h2><u>Send Message</u></h2>
+        <center> 
+                <table style="height: 127px;" width="413">
+                    <form><tbody>
+                        <tr>
+                            <td style="width: 120px;">Your Name:</td>
+                            <td style="width: 199px;">
+                                <input type="text" name="firstname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px;">Your Email:</td>
+                            <td style="width: 199px;">
+                                <input type="text" name="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px;">Subject:</td>
+                            <td style="width: 199px;">
+                                <input type="text" name="subject">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 120px;">Message:</td>
+                            <td style="width: 199px;">
+                                <textarea name="message"  placeholder="Write something.." style="height:170px"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </br>
+				<button type="submit" class="submitbtn" value="Submit">Submit</button>
+            </form>
+        </center>
+
+    </div>
+
+</div>
+
+
+
+<!-- ---footer----------------------------------------footer-----------------------------------------------footer--------------------------------footer----------------------------->
+
+    	<div class="footer">
+    		<div class="news-letter clearfix">
+    			<center>
+
+
+            <table border="0">
+              <tr>
+                <td><h1>Sign Up for News Latter  </h1></td>
+                <td></td>
+                <td><input type="Email" name="" placeholder="  Enter Your Email........" required=""></td>
+                <td></td>
+                <td><form method="POST" action="#"><button type="button" class="">SIGN UP</button></form></td>
+              </tr>
+            </table>
+   				
+    			</center>
+    			
+    		</div><!-- newslater-->
+
+
+          <div class="down-footer">
+
+
+       
+              <div class="col">            
+                    <div class="down-footer-col clearfix">
+                        <h4 class="contact" style="font-size:25px;">Contact Us</h4>
+
+                       
+
+                        <table border="0">
+                          <tr>
+                            <td><i class="fas fa-map-marker-alt fa-2x" style="color: rgb(190, 35, 35);"></i></td>
+                            <td></td>
+                            <td class="city">NO:77,<br>Kandy Road,</td>
+                          </tr>
+
+                          <tr>
+                              <td></td>
+                               <td></td>
+                              <td class="city">Malabe,<br>Sri Lanka.</td>  
+                          </tr>
+
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+
+
+                          <tr>
+                            <td><i class="fas fa-phone-square fa-2x" style="color: rgb(32, 196, 32);"></i></td>
+                            <td></td>
+                            <td><a href="skype:0712184518?call">(+94) 71 2184 518</a></td>
+                          </tr>
+
+
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+
+
+                          <tr>
+                            <td><i class="fas fa-envelope-square fa-2x" style="color: rgb(10, 110, 241)"></i></td>
+                            <td></td>
+                            <td><a href="mailto:info@thirtyfirstsoftwares.com">info@thirtyfirstsoftwares.com</a></td>
+                          </tr>
+
+                        
+                        </table>
+
+
+                    </div><!-- down-footer-col -->
+
+                    <div class="down-footer-col clearfix">
+                      <h4 style="font-size:23px;">Apply for Job Opportunities</h4>
+
+                      <p>
+                        <i class="fas fa-quote-left fa-1x"></i>
+                                Leisure Stores ready to offer in ideal opprtunities,
+                                those who are interested in Web designing,Mobile
+                                Application developping & Financial Controllers.
+                         <i class="fas fa-quote-right fa-1x"></i>
+
+                      </p>
+                      <br>
+
+ <!--                  <center> -->
+                  <table class="job" border="0">
+
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td><i class="fas fa-hand-point-right fa-1x"></i></td>
+                      <td><a href="#">Web Administrators</a></td>
+
+                    </tr>
+
+
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td><i class="fas fa-hand-point-right fa-1x"></i></td>
+                      <td><a href="#">Finance Controllers</a></td>
+
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td><i class="fas fa-hand-point-right fa-1x"></i></td>
+                      <td><a href="#">Hybrid App Developpers</a></td>
+
+                    </tr>
+
+
+                  </table>
+                <!--   </center> -->
+
+                    </div><!-- down-footer-col -->
+
+
+                    <div class="down-footer-col-last clearfix">
+                         <h4 style="font-size:25px;">More Information</h4>
+
+                         <table border="0">
+                            <tr style="padding-right:40px; padding-left: 20px;">
+                              <td><a href="#">About us</a></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td><a href="#">Privacy Policy</a></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td><a href="#">Client's feedback</a></td>
+                            </tr> 
+
+                            <tr>
+                              <td></td>
+                              <td></td>
+                            </tr>
+
+                            <tr style="padding-right:40px; padding-left: 20px;">
+                              <td><a href="#">Blog</a></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              
+                              <td><a href="#">Site's New Updates</a></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td><a href="#">FAQ'S</a></td>
+                            </tr>
+
+
+
+                            <tr>
+                              <td></td>
+                              <td></td>
+                            </tr>
+
+                            <tr style="padding-right:40px; padding-left: 20px;">
+                              <td><a href="#">News</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>                       
+                              <td><a href="#">Terms of sales</a></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td><a href="#">Find us on Google maps</a></td>
+                            </tr>
+
+
+
+                            <tr>
+                              <td></td>
+                              <td></td>
+                            </tr>
+
+                            <tr style="padding-right:40px; padding-left: 20px;">
+                              <td><a href="#">Resorces</a></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>                            
+                              <td><a href="#">Terms of sales</a></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+
+
+
+
+                         </table>
+                         <br>
+
+                         <div class="social-meadia clearfix">
+                      <a href="#"><i class="fab fa-facebook-square fa-2x" id="fb"></i></a>
+                            <a href="#"><i class="fab fa-instagram fa-2x" id="insta"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-square fa-2x"></i></a>
+                            <a href="#"><i class="fas fa-rss-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+
+
+
+                         </div><!-- social-meadia -->
+
+
+
+
+                    </div><!-- down-footer-col-last -->
+               </div><!-- col -->
+            
+
+              <h5>Copyrights &copy; 2018 | All Rights Reserved.</h5>
+
+          </div><!-- down-footer -->
+
+
+
+
+    	</div><!-- footer -->
+
+
+
+</div><!-- wrapper -->
+
+
+
+
+</body>
+</html>

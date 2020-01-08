@@ -1,0 +1,72 @@
+.clearfix{overflow : auto}
+body {margin:0;font-family:Arial}
+
+.paymet-head{
+    width:100%;
+    height: 120px;
+    background:orange;
+}
+
+.paymet-head  i{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.paymet-head h1{
+    margin-top: 6px;
+    font-family: arial;
+    display:inline-block;
+    font-size: 40px;
+    margin-left: 15px; 
+}
+
+.content{
+    width: 100%;
+    height: 600px;
+    background: #0F90A5;
+}
+
+.messege{
+    margin-top:40px;
+    width:40%;
+    height: 490px;
+    background: none;
+    border:solid;
+    border-radius:5px;
+}
+
+
+.messege i{
+    color:rgb(92, 196, 8);
+}
+
+.messege p{
+    font-weight: bold;
+    font-size:20px;
+    color: rgb(41, 36, 36);
+}
+
+.messege table{
+    font-weight: bold;
+}
+
+.messege button{
+    height: 40px;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	background: linear-gradient(to left,#ebfc05,#e9f810,#ebfa1b);
+	border:none;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.messege button:hover{
+    color:#ebfa1b;
+	background: black;
+
+	transition:0.7s;
+}
+

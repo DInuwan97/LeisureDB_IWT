@@ -1,0 +1,189 @@
+* {box-sizing: border-box}
+
+body{
+	font-family:Arial;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=date] {
+	font-size:14px;
+	width: 100%;
+	height:20px;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	border-radius:20px;
+	background: white;
+}
+
+input[type=radio] {
+	border: black;
+}
+
+
+h1{
+	margin-top:5px;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+	color:black;
+}
+
+a{
+	text-decoration: none;
+	color:ash;
+}
+
+#forpwd{
+	font-size:12px;
+    margin-left:112px;
+
+}
+
+#user-avetar{
+	width:130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#green-tick{
+	width:80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fir-name{
+	width: 50%;
+	border-radius:18px;
+}
+
+#sec-name{
+	width: 49%;
+	border-radius:18px;
+}
+
+#gender-radio{
+	border-radius: 15px;
+    background-color: white;
+	width: 200px;
+	height:30px;
+	padding-top: 5px;
+	padding-left:24px;
+}
+
+#registration{
+	position: relative;
+	margin: auto;
+    bottom: 110;
+    right: 110;
+    width: 500px;
+    border: none;
+	box-shadow: 1px 1px 1px gray;
+
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 2px;
+}
+
+#signin{
+	position: relative;
+	margin: auto;
+    bottom: 110;
+    right: 110;
+    width: 400px;
+    border: none;
+	box-shadow: 1px 1px 1px gray;
+
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 2px;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid ash;
+  width:95%;
+  align:right;
+}
+
+button {
+  font-size:16px;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius:25px;
+}
+
+button:hover {
+  opacity:1;
+  background-color:
+}
+
+#resetbtn2 {
+	background-color:#0066cc;
+	width:118px;
+    margin-left: 40px;
+}
+
+#resetbtn1 {
+	background-color:#0066cc;
+	width:118px;
+    margin-left: 100px;
+}
+
+#signinbtn{
+	background-color:#0066cc;
+	width:118px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nextbtn {
+	background-color:#0066cc;
+	width:118px;
+	margin-left: 10px;
+}
+
+.submitbtn{
+	background-color:#0066cc;
+	width:118px;
+	margin-left: 10px;
+}
+
+.skipbtn{
+	background-color: tomato;
+	width:118px;
+	margin-left: 10px;
+}
+
+.returnbtn{
+	background-color:#0066cc;
+	width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.login{
+	width:60%;
+}

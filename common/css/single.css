@@ -1,0 +1,239 @@
+.clearfix{overflow : auto}
+body {margin:0;font-family:Arial}
+
+
+.single-sctivity-main{
+    width:100%;
+    height: 800px;
+    background: #0F90A5;
+}
+
+.main-single{
+    margin-top:25px;
+    margin-left: 5%;
+    width: 90%;
+    height: 720px;
+     border:solid; 
+     border-radius: 5px;
+}
+
+
+
+.single-activity-left{
+    margin-top:15px;
+    margin-left: 4%;
+    display: inline-block;
+    /* border: solid; */
+    width: 44%;
+    height: 670px;
+}
+
+
+.single-activity-right{
+    margin-top:15px;
+    margin-left: 4%;
+    display: inline-block;
+  
+    width: 44%;
+    height: 675px;
+}
+
+.single-activity-left h2{
+    font-size:40px; 
+    font-family:arial;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.single-activity-left h5{
+    display: inline-block;
+    font-size:25px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(80, 77, 73);
+}
+
+.single-activity-left p{
+    margin-top: 1px;
+    font-size:19px;
+    margin-left: 15px;
+
+}
+
+.activity-image{
+    width: 80%;
+    height: 290px;
+    /* border: solid; */
+    margin-top: none;
+    
+    border:none;
+
+}
+
+.activity-image img{
+    border-radius:10px;
+}
+
+.activity-decription{
+    width: 95%;
+    height: 200px;
+    
+    margin-top: 15px;
+    background:#0F90A5;     /* description div color*/
+    border: none;
+    border-radius: 8px;
+}
+
+.provider-info{
+    width: 95%;
+    height: 270px;
+    border: solid; 
+    margin-top: 88px;
+}
+
+
+.provider-info table a:hover{
+    color: bisque;
+    transition: 0.8s;
+}
+
+
+.online-payment{
+    width: 95%;
+    height: 270px;
+    /* border: solid; */
+    margin-top:20px;
+}
+     
+.description-head{
+    border: solid;
+    width: 99.5%;
+    height:45px;
+}
+
+
+.activity-decription h6{
+    float: left;
+    margin-left: 5px;
+    margin-top:10px;
+    font-size: 15px;
+    background: orange;
+    border-radius:3px;
+    padding-right: 200px;
+    
+
+}
+
+.activity-decription .des{
+    font-size: 15px;
+    float: left;
+    margin-left: 15px;
+    margin-top:10px;
+    text-align: left;
+    margin-top:none;
+    font-weight: bold; 
+}
+
+
+.provider-info table{
+    float:left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.provider-info table a{
+    color:black;  
+}
+
+
+.offline-pay{
+    width: 65%;
+    height: 110px;
+  
+    margin-top:110px;
+    border-radius: 5px;
+}
+
+
+.offline-pay label{
+    float: left;
+    margin-left: 15px;
+    margin-top:5px;
+    background: orange;
+    padding: 5px;
+    border:none;
+    
+}
+
+.offline-pay p{
+    float: left;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.online-pay{
+    width: 95%;
+    height: 270px;
+     border: solid; 
+     border-radius: 5px;
+    margin-top: 20px;
+}
+
+.online-pay label{
+    float: left;
+    margin-left: 15px;
+    margin-top:5px;
+    background: rgb(224, 149, 9);
+    padding: 5px;
+    border:none;
+    border-radius:5px;
+}
+
+.online-pay p{
+    float: left;
+    margin-left: 15px;
+    text-align: left;
+    font-weight: bold;
+    color:rgb(145, 30, 30);
+    font-size:25px;
+    margin-top: 5px;
+}
+
+.online-pay table{
+    margin-top:none;
+    float: left;
+    margin-left: 15px;
+}
+
+.online-pay table::-webkit-input-placeholder{
+    color: black;
+}
+
+.online-pay check{
+    float:left;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.online-pay button{
+	height: 40px;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	background: linear-gradient(to left,#ebfc05,#e9f810,#ebfa1b);
+	border:none;
+	border-radius: 5px;
+    margin-top: 95px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+.online-pay button:hover{
+	color:#ebfa1b;
+	background: black;
+
+	transition:0.7s;
+}

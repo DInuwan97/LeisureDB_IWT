@@ -1,0 +1,88 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+            
+            /* Full-width input fields */
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 12px 0;
+                display: inline-block;
+                border: 1px solid black;
+            }
+            
+            /* Set a style for all buttons */
+            button {
+                background-color: blue;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+            
+            button:hover {
+                opacity: 0.8;
+            }
+            
+            /* Center the image and position the close button */
+            .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+                position: relative;
+            }
+            
+            img.avatar {
+                width: 40%;
+                border-radius: 100%;
+            }
+            
+            
+            span.psw {
+                float: right;
+                padding-top: 26px;
+            }
+            
+            
+
+            .center {
+                background-image: url("./img/background.jpg");
+    margin: auto;
+    width: 10%;   
+    padding: 50px;
+    width: 600px;
+                height: 700px;
+            }  
+   .login{
+                margin: auto;  
+                padding: 10px;
+                width: 650px;
+            }
+
+            #message {
+                display:none;
+                background:white;
+          
+                position: relative;
+                padding: 50px;
+                margin-top: 10px;
+            }
+            
+            
+            
+            
+            /* Style all input fields */
+input {
+    width: 10%;
+    padding: 12px;
+	
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+
+/* Style the container for inputs */
+.container {
+    background-color: lightblue;
+    padding: 20px;
+}

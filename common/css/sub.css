@@ -1,0 +1,90 @@
+.clearfix{overflow : auto}
+
+
+.texbox{
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-left: 100px;
+	border:none;
+	border-radius: 20px;
+	font font-family: arial;
+	font color: red;
+}
+
+.wrapper button{
+	background: orange;
+		margin-top: 30px;
+	margin-right: 100px;
+	margin-left: 100px;
+	width: 100px;
+}
+
+.wrapper button:hover{
+		background: orange;
+
+}
+
+
+nav{
+	background: #495;
+	background: linear-gradient(#000033 ,#00004d, #000033);
+	text-align: center;
+	border-radius: 10px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color:#fff;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-right: : 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+nav ul li a:hover{
+		background:#475;
+		color:orange;
+}
+
+div.intro{
+	width: 1170px;
+
+}
+
+div.intro div.intro-image{
+	width: 400px;
+	float:left;
+	
+}
+
+div.intro div.intro-text{
+	width: 570px;
+	float:right;
+	font-family: arial;
+}
+
+div.intro-text h1{
+	font-weight: normal;
+	margin-top: 100px;
+	font-size: 72px;
+	font-transform: uppercase;
+}
+
+div.intro-text a{
+	margin-top: 10px;
+	font-transform:uppercase;
+	color: red;
+	float: right;
+	font-size:14px;
+	font-family: Tekton Pro Ext;
+}

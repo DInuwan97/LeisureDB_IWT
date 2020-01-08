@@ -1,0 +1,138 @@
+.clearfix{overflow : auto}
+body {margin:0;font-family:Arial}
+
+.paymet-head{
+    width:100%;
+    height: 100px;
+    background:#0F90A5;
+}
+
+.paymet-head  i{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.paymet-head h1{
+    margin-top: 6px;
+    font-family: arial;
+    display:inline-block;
+    font-size: 40px;
+    margin-left: 15px; 
+}
+
+.content{
+    width: 100%;
+    height: 500px;
+    background: #0F90A5;
+}
+
+.messege{
+    margin-top:none;
+    width:40%;
+    height: 400px;
+    background: none;
+    border:solid;
+    border-radius:5px;
+}
+
+
+.messege i{
+    color:rgb(92, 196, 8);
+}
+
+.messege p{
+    font-weight: bold;
+    font-size:20px;
+    color: rgb(41, 36, 36);
+}
+
+.messege table{
+    font-weight: bold;
+}
+
+.messege button{
+    height: 40px;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	background: linear-gradient(to left,#960909,#d80808d8,#d42a14);
+	border:none;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.messege button:hover{
+    color:#c91f1f;
+	background: black;
+
+	transition:0.7s;
+}
+
+.sub-gate{
+    width:47%;
+    height: 300px;
+    display:inline-block;
+     border:solid;
+}
+
+
+.navigation-bar{
+    width :100%;
+
+    background: #0F90A5;
+    border-radius: 20px;
+}
+
+.navigation-bar .nav-links ul li{
+    margin-right: 5px;
+    margin-left: 5px;
+    list-style: none;
+    display: inline-block;
+    border-right: 2px solod black;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    float:left;
+    margin-top:none;
+}
+
+.navigation-bar .nav-links ul li a{
+        font-weight: bold;
+        border-right: 2px solod black;
+        text-decoration: none;
+        float:left;
+        transition: 0.6s;
+       
+}
+
+.navigation-bar .nav-links ul li a.img:hover{
+    margin-right: 10px;
+}
+
+.navigation-bar .nav-links ul li a:hover{
+    transition: 0.6s;
+
+    border:none;
+    border-radius: 5px;
+    margin:10px 0 10px 0;
+}
+
+.account{
+    width:100%;
+    transition: 0.6s;
+}
+
+.nav-links{
+    transition: 0.6s;
+
+}
+
+.method{
+    transition: 0.6s;
+}
+
+.bank{
+    transition: 0.6s;
+}
